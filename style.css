@@ -2,6 +2,36 @@ body {
     font-family: "Playfair Display", serif;
     font-family: "Lato", sans-serif;
 }
+
+/* COMMON STYLE  */
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+header .logo {
+    color: #e55473;
+    font-weight: 600;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul {
+    display: flex;
+}
+header nav ul li {
+    list-style: none;
+}
+header nav ul li a {
+    text-decoration: none;
+    padding: 15px 30px;
+    font-size: 17px;
+    font-weight: 600;
+    color: #000000;
+}
+
 h1 {
     font-family: Playfair Display;
 }
