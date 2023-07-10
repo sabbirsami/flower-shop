@@ -11,6 +11,7 @@ body {
 .container {
     max-width: 1320px;
     margin: 0 auto;
+    /* border: 1px solid black; */
 }
 
 /* NAVBAR SECTION  */
@@ -43,6 +44,8 @@ header nav ul li a {
     font-weight: 600;
     color: #000000;
 }
+
+/* BANNER SECTION  */
 header .banner {
     display: flex;
     justify-content: space-between;
@@ -59,7 +62,7 @@ header .banner p {
 }
 header .banner button {
     font-size: 18px;
-    font-family: lato;
+    font-family: "Lato", sans-serif;
     padding: 15px 30px;
     border: 0;
     background-color: #e55473;
@@ -72,4 +75,76 @@ header .banner img {
     width: 600px;
     padding-top: 60px;
     padding-left: 60px;
+}
+
+/* FEATURE SECTION */
+.feature-section {
+    padding: 70px 0;
+    margin-bottom: 70px;
+    text-align: center;
+}
+.feature-section .feature-text h2 {
+    font-size: 35px;
+    font-family: Playfair Display;
+}
+.feature-section .feature-text p {
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.6);
+    font-family: "Lato", sans-serif;
+    padding: 20px 0px 50px 0;
+}
+.feature-section .feature-box {
+    height: 540px;
+    width: 100%;
+}
+.feature-section .feature-img p {
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: 700;
+    padding: 15px 0px;
+}
+.feature-section .feature-img {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 5px;
+    grid-template-rows: 260px auto 260px;
+}
+.feature-section .feature-box:nth-child(1) {
+    height: 500px;
+    background-color: #f2dee7;
+    width: 100%;
+    border-radius: 47% 47% 0% 0%;
+}
+.feature-section .feature-box:nth-child(2) {
+    height: 500px;
+    background-color: #d9eff1;
+    width: 100%;
+    border-radius: 47% 47% 0% 0%;
+}
+.feature-section .feature-box:nth-child(3) {
+    height: 500px;
+    background-color: #e3ebdb;
+    width: 100%;
+    border-radius: 47% 47% 0% 0%;
+}
+.feature-section .feature-box .feature-flower:nth-child(1) {
+    height: 500px;
+    width: 100%;
+    padding: 35px 40px 0px 40px;
+    display: flex;
+    align-items: center;
+}
+.feature-section .feature-box .feature-flower:nth-child(2) {
+    height: 500px;
+    width: 100%;
+    padding: 35px 40px 0px 40px;
+    display: flex;
+    align-items: center;
+}
+.feature-section .feature-box .feature-flower:nth-child(3) {
+    height: 500px;
+    width: 100%;
+    padding: 35px 40px 0px 40px;
+    display: flex;
+    align-items: start;
 }
