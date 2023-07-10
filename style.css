@@ -13,17 +13,27 @@ body {
     margin: 0 auto;
     /* border: 1px solid black; */
 }
-
-/* NAVBAR SECTION  */
-header {
+.text-primary {
+    color: #e55473;
+}
+.bg-primary {
     background-color: #fceef1;
 }
-header .navbar {
-    border-bottom: 1px solid #e55473;
+.btn-primary {
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+    padding: 15px 30px;
+    border: 0;
+    background-color: #e55473;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 0px 4px 0px #c3c3c3;
 }
-header .logo {
-    color: #e55473;
-    font-weight: 600;
+
+/* NAVBAR SECTION  */
+header .navbar {
+    box-shadow: rgb(250 212 221) 0px 2px 10px;
 }
 header nav {
     display: flex;
@@ -53,27 +63,16 @@ header .banner {
 }
 header .banner h1 {
     font-family: Playfair Display;
-    font-size: 65px;
+    font-size: 75px;
 }
 header .banner p {
     font-size: 18px;
     font-family: lato;
     padding: 10px 0;
 }
-header .banner button {
-    font-size: 18px;
-    font-family: "Lato", sans-serif;
-    padding: 15px 30px;
-    border: 0;
-    background-color: #e55473;
-    color: #ffffff;
-    border-radius: 5px;
-    margin-top: 20px;
-    box-shadow: 0px 4px 0px #c3c3c3;
-}
 header .banner img {
     width: 600px;
-    padding-top: 60px;
+    padding-top: 90px;
     padding-left: 60px;
 }
 
@@ -159,8 +158,23 @@ header .banner img {
     font-size: 18px;
     color: rgba(39, 39, 39, 0.6);
     background-color: rgba(39, 39, 39, 0.05);
-    margin: 80px 0;
+    margin: 160px 0;
 }
 .services p {
     padding-top: 10px;
+}
+
+/* OFFER SECTION  */
+.offer-section {
+    padding: 60px 0px;
+}
+.offer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.offer h1 {
+    font-size: 36px;
+    padding: 20px 0px;
 }
