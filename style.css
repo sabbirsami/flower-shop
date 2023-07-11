@@ -11,7 +11,7 @@ body {
 .container {
     max-width: 1320px;
     margin: 0 auto;
-    /* border: 1px solid black; */
+    border: 1px solid black;
 }
 .text-primary {
     color: #e55473;
@@ -35,7 +35,7 @@ body {
 .navbar {
     position: sticky;
     backdrop-filter: saturate(180%) blur(20px);
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(30px);
     background-color: #e554731c;
     top: 0;
 }
@@ -181,4 +181,62 @@ nav ul li a {
 .offer h1 {
     font-size: 36px;
     padding: 20px 0px;
+}
+
+/* INSTAGRAM SECTION  */
+.instagram-section .instagram-text {
+    text-align: center;
+    padding: 60px 0;
+}
+.instagram-section .instagram-text h1 {
+    font-size: 40px;
+    font-family: "Playfair Display", serif;
+}
+.instagram-section .instagram-text p {
+    color: rgba(39, 39, 39, 0.6);
+    padding: 20px 0;
+}
+.instagram-section .instagram-img {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+.instagram-section .instagram-img img {
+    width: 100%;
+}
+
+/* CLIENT SECTION  */
+.client-section {
+    padding: 60px 0;
+}
+.client-section h1 {
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-size: 40px;
+    padding-bottom: 60px;
+}
+.client-section .clients {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+.client-section .clients .client > p {
+    font-size: 23px;
+
+    font-style: italic;
+    padding: 35px 35px 0px 35px;
+    color: rgba(39, 39, 39, 0.6);
+}
+.client-section .clients .client .person {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 25px;
+}
+.client-section .clients .client img {
+    height: 70px;
+    width: auto;
+    border: 3px solid #e55473;
+    border-radius: 50px;
+    margin-right: 20px;
 }
